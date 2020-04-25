@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Płyta główna</title>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/13eaecc618.js"></script> 
+    <style>
+	  *{
+            background-color: rgb(150, 150, 255);;
+			color: black;
+			text-decoration: none;
+			font-size: 19px
+        }
+		.header {
+            font-size: 40px;
+            display: flex;
+			font-family: 'Oswald', sans-serif;
+           justify-content: center;           
+        }
+		nav i {
+		text-decoration: none;
+		}
+		.ikona {           
+           display: flex;
+           justify-content: center;
+       }      
+		nav ul {
+            list-style: none;  
+        }
+    </style>
+</head>
+<body>
+ <nav>        
+        <ul class="clearfix">           
+                <li><a href="strona.html"><i class="fas fa-arrow-circle-left"></i></a></li>  				
+        </ul>
+		</nav>
+		<div class = "header">Płyta główna</div> <br>
+		    <div class ="ikona">
+        <img src="ikony/plyta.png" alt=""height="150" width="150">
+    </div>
+   
+    <section>
+      <p> <b>Płyta główna</b> (ang. motherboard, mainboard) – obwód drukowany urządzenia elektronicznego, na którym montuje się najważniejsze elementy, umożliwiając komunikację wszystkim pozostałym komponentom i modułom.
+W komputerze na płycie głównej znajdują się: procesory, pamięć operacyjna lub gniazda do zainstalowania tych urządzeń oraz gniazda do zainstalowania dodatkowych płyt zwanych kartami rozszerzającymi (np. PCI), oraz gniazda do urządzeń składujących (dyski twarde, napędy optyczne itp.), złącze klawiatury i zasilacza. W niektórych konstrukcjach także gniazda do innych urządzeń zewnętrznych, do których sprzęt znajduje się na płycie głównej (port szeregowy, port równoległy, USB).W konfiguracjach dominujących w pierwszej dekadzie XXI wieku większość urządzeń zrealizowanych na płycie głównej zgrupowana jest w dwóch układach scalonych zwanych mostkami. Bliższy procesorowi zwany mostkiem północnym oraz mostek południowy.
+Mostek północny jest połączony z procesorem za pomocą magistrali FSB lub łączy Hyper Transport. W nowszych rozwiązaniach układ ten zawiera podstawowy kontroler PCIe (lub w starszych rozwiązaniach – AGP), służący najczęściej do podłączenia urządzeń z rodzaju kart graficznych (także zintegrowanych), ale też wszelkich urządzeń wymieniających z procesorem lub pamięcią duże ilości danych (bardzo często zintegrowane karty sieciowe).
+Mostek południowy (jeśli występuje) jest podłączony do mostka północnego za pomocą magistrali (na przykład FSB) albo łączem typu Punkt-Punkt jak Hyper Transport. Zawiera drugi kontroler PCIe, kontrolery SATA, ATA, USB, zintegrowany kontroler dźwięku (np. AC97), kontrolery Ethernetu, itd... Jeśli na płycie głównej występuje tylko jeden układ, to najczęściej wszystkie funkcje mostka południowego i północnego są w nim zintegrowane. </p>         
+        <div style="position: absolute; bottom: 0px;">Jakub Motyka ©2020 </div>
+    </section>       
+</body>
+</html>
